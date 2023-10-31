@@ -10,6 +10,11 @@
 /* 40px = 2.5rem */
 /* de px para rem é só dividir por 16 */
 
+:root{
+    --gray-800: #1e293b;
+    --gray-600: #475569;
+}
+
 header {
     background-image: url(./img/bg-mobile.png);
     background-size: cover;
@@ -18,4 +23,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 3.7rem;
 }
+
+main {
+    padding-inline: 1.5rem;
+}
+
+.descrition h1 {
+    color: var(--gray-800); 
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
+
+.p
