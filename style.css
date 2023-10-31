@@ -31,10 +31,17 @@ main {
     padding-inline: 1.5rem;
 }
 
+.descrition {
+    margin-bottom: 2.5rem;
+}
+
 .descrition h1 {
     color: var(--gray-800); 
     margin-bottom: 1rem;
     font-size: 1.5625rem;
 }
 
-.p
+.descrition p {
+    font-size: 0.8125rem;
+    color: var(--gray-600);
+}
